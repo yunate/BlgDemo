@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{BCE787E1-D819-40AA-8F26-C5B22C2C3CF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{4EDD5B5D-3E01-4ADD-9507-982A88B9B29B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1、 第一次使用">
+      <UniqueIdentifier>{3ccc144d-a5d1-4eb2-a5b5-ab5ed9dd5e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2、线程同步">
+      <UniqueIdentifier>{6fb76e01-02af-4001-9810-3f14c48f09a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\source\GolDef.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\first_thread\FirstThread.cpp">
+      <Filter>1、 第一次使用</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\first_thread\ThreadParam.cpp">
+      <Filter>1、 第一次使用</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\first_thread\ThreadClassCallBack.cpp">
+      <Filter>1、 第一次使用</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\first_thread\ThreadLambdaClassCB.cpp">
+      <Filter>1、 第一次使用</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\first_thread\ThreadFucntionalClassCB.cpp">
+      <Filter>1、 第一次使用</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\first_thread\ThreadSClassCB.cpp">
+      <Filter>1、 第一次使用</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\synchronize\mutex.cpp">
+      <Filter>2、线程同步</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\synchronize\mutex_trylock.cpp">
+      <Filter>2、线程同步</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\synchronize\smart_lock.cpp">
+      <Filter>2、线程同步</Filter>
+    </ClCompile>
+    <ClCompile Include="..\source\synchronize\condition_variable.cpp">
+      <Filter>2、线程同步</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
